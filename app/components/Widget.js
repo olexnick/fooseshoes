@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom';
 import {Col, Row} from 'react-bootstrap';
 
 export default class Widget extends React.Component{
+  constructor(props){
+    super(props);
+}
 
   render(){
     return(
